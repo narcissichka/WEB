@@ -1,0 +1,22 @@
+{
+  "name": "web_lr1",
+  "version": "1.0.0",
+  "description": "laboratory work on web design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcissichka/WEB.git"
+  },
+  "author": "Anna Korzh <annaakorzh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narcissichka/WEB/issues"
+  },
+  "homepage": "https://github.com/narcissichka/WEB#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

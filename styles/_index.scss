@@ -1,0 +1,41 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.jumbotron {
+  padding-block: 5%;
+  margin-bottom: 0;
+  user-select: none;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  & h1 {
+    margin-bottom: 7%;
+  }
+}
+.jumb {
+  &-logo {
+    width: 15%;
+  }
+}
+#hanging-icons {
+  margin-bottom: 5%;
+}
+#accordionExample {
+  margin-bottom: 10%;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #29202ea2;
+  color: #ffffff;
+  &::after {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(7%)
+      hue-rotate(17deg) brightness(106%) contrast(100%);
+  }
+}
